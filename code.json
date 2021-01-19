@@ -1,0 +1,118 @@
+{
+  "fontName": {
+    "type": "googleFont",
+    "label": "Font name",
+    "value": "Metamorphous",
+    "group": "Typography"
+  },
+  "dynamicFontSize": {
+    "type": "dropdown",
+    "label": "Font size",
+    "value": "static",
+    "options": {
+      "static": "Static - set below",
+      "dynamic": "Dynamic - fit container size"
+    },
+    "group": "Typography"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font size",
+    "value": 32,
+    "group": "Typography"
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font color",
+    "group": "Typography"
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    },
+    "group": "Typography"
+  },
+  "textTransform": {
+    "type": "dropdown",
+    "label": "Text transform",
+    "options": {
+      "none": "None",
+      "uppercase": "Uppercase",
+      "lowercase": "Lowercase",
+      "capitalize": "Capitalize"
+    },
+    "value": "none",
+    "group": "Typography"
+  },
+  "shadow": {
+    "type": "text",
+    "label": "Text shadow",
+    "group": "Typography"
+  },
+  "hideAfter": {
+    "type": "number",
+    "label": "Hide for X seconds",
+    "value": 32,
+    "group": "Global settings"
+  },
+  "cycleTime": {
+    "type": "number",
+    "label": "Cycle slide every (s)",
+    "value": 20,
+    "group": "Global settings"
+  },
+  "text1": {
+    "type": "dropdown",
+    "label": "Pick data type for slide #1:",
+    "value": "{follower-latest.name}",
+    "options": {
+      "{follower-latest.name}": "Latest Follower",
+      "{subscriber-latest.name}": "Latest Subscriber",
+      "{tip-latest.name}": "Latest Tipper"
+    }
+  },
+  "text2": {
+    "type": "dropdown",
+    "label": "Pick data type for slide #2:",
+    "value": "{subscriber-latest.name}",
+    "options": {
+      "{follower-latest.name}": "Latest Follower",
+      "{subscriber-latest.name}": "Latest Subscriber",
+      "{tip-latest.name}": "Latest Tipper"
+    }
+  },
+  "text3": {
+    "type": "dropdown",
+    "label": "Pick data type for slide #3:",
+    "value": "{tip-latest.name}",
+    "options": {
+      "{follower-latest.name}": "Latest Follower",
+      "{subscriber-latest.name}": "Latest Subscriber",
+      "{tip-latest.name}": "Latest Tipper"
+    }
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Top Events Rotator"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "lx"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "1.0"
+  },
+  "widgetUpdateUrl": {
+    "type": "hidden",
+    "value": "https://github.com/StreamElements/widgets/blob/master/TopEventsRotator/"
+  }
+}
